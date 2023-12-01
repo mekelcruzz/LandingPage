@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html{
+  background-color: rgb(104, 51, 151);
+}
+.bg{
+  
+  width: 100%;
+  height: 650px; /* Set the height as needed */
+  background-image: url('bg-desktop.svg');
+  background-size: cover; /* Adjust as needed */
+  border: none;
+  position: fixed;
+  background-color: rgb(104, 51, 151);
+  
+}
+.pic{
+    width: 650px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+.logo{
+  width: 270px;
+  position: relative;
+  right: 570px;
+  bottom: 500px;
+}
+
+
+.title{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  top: 215px;
+  left: 775px;
+  color: white;
+}
+.para{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  top: 220px;
+  left: 775px;
+  color: white;
+  
+}
+
+
+.btn{
+  position: fixed;
+  top: 375px;
+  left: 775px;
+  
+}
+.button {
+  padding: 10px 50px; 
+  border: none;
+  border-radius: 20px; 
+  background-color: #ffffff; 
+  color: rgb(104, 51, 151);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 20px 8px 14px rgba(0, 0, 0, 0.1); /* Add box shadow with the desired values */
+}
+.button:hover{
+  background-color: rgb(183, 125, 233);
+  color: white;
+}
+
+@media screen and (max-width: 500px)
+{
+    .bg{
+      background-image: url(bg-mobile.svg);
+      width: 375px; /* Set the width */
+      height: 667px; /* Set the height */
+      background-size: cover; /* Adjust as needed */
+      border: none;
+      position: fixed;
+      background-color: rgb(104, 51, 151);
+    }
+
+    .pic{
+      width: 300px;
+      position: relative;
+      left: 40px;
+      top: -110px;
+  }
+
+  .logo{
+    width: 170px;
+    position: relative;
+    left: 30px;
+    top: -385px;
+  }
+
+  .title{
+    width: 300px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 40px;
+    top: 300px;
+    color: white;
+
+
+  }
+
+
+  .para{
+    max-width: 265px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 40px;
+    top: 310px;
+    color: white;
+    word-wrap: break-word;
+    
+  }
+
+  .btn{
+    max-width: 265;
+    position: fixed;
+    left: 100px;
+    top: 550px;
+  }
+
+
+    
+}
